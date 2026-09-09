@@ -1,0 +1,100 @@
+[
+  {
+    "model_id": "liquid/lfm-2.5-2.6b:free",
+    "role": "generation",
+    "average_fact_score": 0.2,
+    "results": [
+      {
+        "id": "q01",
+        "question": "How many Privilege Leaves (PL) does an employee receive in each financial year?",
+        "answer": "According to the policy document, employees are entitled to **12 Privilege Leaves (PL)** in each financial year. This is stated on page [Pages 2-2] under the \"Privilege Leave\" section, which notes: \"Employees are entitled to 12 Privilege Leave (PL) in each financial year.\"\n\nAdditionally, the policy specifies that:\n- The entire PL balance is credited at the beginning of the financial year\n- A maximum of 5 PLs can be taken at a time in one instance\n- At the end of each financial year (31st March), only 20 PLs will be carried forward (with special handling for those accumulating more than 20 PLs)\n\n**Source:** Pages 2-2 (Privilege Leave section)",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q02",
+        "question": "How many Casual Leaves (CL) does an employee receive in each financial year?",
+        "answer": "According to the policy document, employees are entitled to **8 Casual Leaves (CL) per financial year**. This is explicitly stated on page 2-2 under the Casual Leave section:\n\n> \"Employees will be entitled to 8 Casual Leaves (CL) per financial year.\"\n\nAdditionally, the policy notes that:\n- The entire CL balance is credited at the beginning of the financial year\n- A maximum of 3 CLs can be taken at a time in one instance\n- If CL is combined with a weekend, holiday, and any other leave type, sandwich leave will be applied\n- At the end of the financial year (March 31st), remaining balance of Casual Leave will be lapsed\n\n**Answer:** Each employee receives 8 Casual Leaves (CL) per financial year.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q03",
+        "question": "How many days in advance must an employee apply for Privilege Leave?",
+        "answer": "According to the policy document, employees must apply for Privilege Leave (PL) **at least 3 days in advance** for approval. This is stated under the \"Privilege Leave\" section on Page 2-2.\n\nThe relevant text reads: \"Employee must apply for PL at least 3 days in advance for an approval.\"\n\nAdditionally, the policy notes that if an employee fails to apply at least 3 days in advance, they would need to apply for Casual Leave (CL) instead, or if no CL balance is available, they would have to apply for Leave Without Pay (LWP).",
+        "matched_facts": [
+          "At least 3 days in advance"
+        ],
+        "fact_score": 1.0
+      },
+      {
+        "id": "q04",
+        "question": "What is the maximum number of Privilege Leaves that can be taken at one time?",
+        "answer": "Based on the policy document, the maximum number of Privilege Leaves (PL) that can be taken at one time is **5**.\n\nThis is specified in the \"Privilege Leave\" section on page 2-2, which states: \"A maximum of 5 PLs can be taken at a time in one instance.\"\n\nAdditionally, when an employee is confirmed during the year, their PL entitlement for that particular year will be adjusted on a pro-rata basis based on the confirmation date, and from the next financial year onwards, PL will be credited according to the regular policy.",
+        "matched_facts": [
+          "A maximum of 5 PLs"
+        ],
+        "fact_score": 1.0
+      },
+      {
+        "id": "q05",
+        "question": "What happens to unused Casual Leave at the end of the financial year?",
+        "answer": "Based on the policy document, here's what happens to unused Casual Leave (CL) at the end of the financial year:\n\n**According to the policy:**\n- **At the end of the financial year (March 31st), remaining balance of Casual Leave will be lapsed.** (Page 2-2)\n\nAdditionally, regarding pro-rata balances:\n- **If an employee has availed more CL than their pro-rata entitlement, the excess leave will be adjusted in the Full & Final (FNF) settlement.** (Page 2-2)\n- **If there is any unutilized pro-rata CL balance, it will lapse and will not be encashed.** (Page 2-2)\n\nThis means that any unused Casual Leave at the end of the financial year is simply lost/expired and cannot be converted to cash or carried forward. The policy explicitly states that unused CL balances do not get encashed (unlike Privilege Leave which can be encashed after serving minimum 3 years).\n\n**Source:** Pages 2-2 and 3-3 of the policy document.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q06",
+        "question": "How many leaves can an employee take while on probation?",
+        "answer": "According to the policy document, **employees on probation are not entitled to take any leaves**. Specifically, the policy states:\n\n> \"On Probation: ... The employee is not entitled to take any leaves on probation. In case of any leave taken it shall be considered as Leave without pay (LWP).\"\n\nTherefore, an employee on probation cannot take any Privilege Leave (PL) or Casual Leave (CL) during their probation period.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q07",
+        "question": "How many Privilege Leaves can normally be carried forward at the end of the financial year?",
+        "answer": "Based on the policy document, **only 20 Privilege Leaves (PLs) can normally be carried forward at the end of the financial year** (March 31st).\n\nThis is explicitly stated on **page 2-2** under the Privilege Leave section:\n\n> \"At the end of each financial year (31st March), only 20 PLs will be carried forward.\"\n\nAdditionally, the policy provides some important details about what happens when employees exceed this limit:\n\n- If an employee has more than 20 PLs as of March 31, 2026, any balance exceeding 20 days will be encashed and paid out in the March 2026 salary cycle.\n- These 20 carried-forward PLs may be utilized up to March 2028.\n- After March 2028, the standard company policy applies, and employees will be eligible to carry forward only up to 20 PLs each year. If there is a balance more than 20 by the end of March 2028, that balance will lapse.\n\nTherefore, the normal carrying forward limit is **20 PLs** at the end of each financial year.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q08",
+        "question": "What are the minimum working-hour requirements for applying for a half-day leave?",
+        "answer": "Based on the policy document, the minimum working-hour requirements for applying for a half-day leave are:\n\n**Minimum 4 hours** of either:\n- The **first half** (10:00 AM to 2:00 PM), OR\n- The **second half** (3:00 PM to 7:00 PM)\n\nThese hours must be completed **excluding break hours**. You can choose which half to apply for (whichever you prefer).\n\nThis requirement is specified in the \"Half Day Leave\" section on **Page 3-3**.\n\nAdditionally, regarding planning for planned leave (5+ consecutive working days):\n- Requests for 5 continuous working days (Monday to Friday) must be submitted at least **1 month in advance**\n- Requests for more than 10 continuous working days must be submitted at least **2 months in advance**\n\nHowever, the specific question asks about the minimum working-hour requirements for applying for a half-day leave, which is answered above.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q09",
+        "question": "What happens if Privilege Leave is combined with a weekend or holiday?",
+        "answer": "Based on the policy document, when Privilege Leave (PL) is combined with a weekend or holiday, **sandwich leave** is applied. This means the intervening weekend or holiday is also counted as leave.\n\nSpecifically, the policy states:\n\n- **\"If PL is combined with a weekend, holiday and with any other leave type, sandwich leave will be applied.\"** (Page 2-2)\n\n- **\"If an employee applies for leave on both sides of a weekend or a company-declared holiday, the intervening weekend or holiday will also be counted as leave. For example, if leave is taken on Friday and Monday, the weekend days (Saturday and Sunday) will also be considered as leave, resulting in a total deduction of four days.\"** (Page 4-4)\n\nThis results in a higher total deduction from the PL balance compared to taking those leave types separately. Additionally, there's an exception noted: **\"If an employee attends work for either the first half or the second half of the day, the Sandwich Leave rule will not be applied.\"** (Page 4-4)\n\nThe policy also notes that if an employee takes 8 days or more consecutive paid leaves (including combinations like PL + weekend/holiday), prior approval from HR is required.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      },
+      {
+        "id": "q10",
+        "question": "Does the policy specify the number of paid bereavement leave days currently available?",
+        "answer": "Based on the provided policy document, there is **no mention of bereavement leave** or any number of paid bereavement leave days. The policy only specifies:\n\n- **Privilege Leave (PL)**: 12 days per financial year\n- **Casual Leave (CL)**: 8 days per financial year\n- **Sandwich leave** rules when combining different types of leave\n\nThe document does not include any provisions related to bereavement leave, death benefits, or any related leave categories. Therefore, the policy does not specify the number of paid bereavement leave days currently available.",
+        "matched_facts": [],
+        "fact_score": 0.0
+      }
+    ],
+    "status": "success"
+  },
+  {
+    "model_id": "thinkingmachines/inkling:free",
+    "role": "generation",
+    "average_fact_score": 0.0,
+    "results": [],
+    "status": "error",
+    "error": "Error code: 403 - {'error': {'message': 'thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps', 'code': 403, 'metadata': {'routing_funnel': [{'step': 'Initial Endpoints', 'endpoint_count': 1}], 'failed_routing_step': 'Gate Free Endpoints by Agentic Harness'}}}"
+  },
+  {
+    "model_id": "nvidia/nemotron-3-ultra:free",
+    "role": "generation",
+    "average_fact_score": 0.0,
+    "results": [],
+    "status": "error",
+    "error": "Error code: 400 - {'error': {'message': 'nvidia/nemotron-3-ultra:free is not a valid model ID', 'code': 400}, 'user_id': 'user_3J5RPoyxZvTHoeDrmob0YvEhuGn'}"
+  }
+]

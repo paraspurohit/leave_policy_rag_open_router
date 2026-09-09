@@ -1,0 +1,15 @@
+# PDF text extraction
+PyMuPDF
+
+# OpenRouter's OpenAI-compatible API
+openai
+python-dotenv
+
+# Vector storage and similarity search
+faiss-cpu
+
+# Testing
+pytest
+
+# Web interface
+gradio

@@ -1,0 +1,2 @@
+Current task :- Build a rag platform use open router
+plan a model selection. which model will you choose and why ?

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q01",
+    "question": "How many Privilege Leaves (PL) does an employee receive in each financial year?",
+    "expected_facts": ["12 Privilege Leaves per financial year"],
+    "source_pages": [2]
+  },
+  {
+    "id": "q02",
+    "question": "How many Casual Leaves (CL) does an employee receive in each financial year?",
+    "expected_facts": ["8 Casual Leaves per financial year"],
+    "source_pages": [2, 3]
+  },
+  {
+    "id": "q03",
+    "question": "How many days in advance must an employee apply for Privilege Leave?",
+    "expected_facts": ["At least 3 days in advance"],
+    "source_pages": [3]
+  },
+  {
+    "id": "q04",
+    "question": "What is the maximum number of Privilege Leaves that can be taken at one time?",
+    "expected_facts": ["A maximum of 5 PLs"],
+    "source_pages": [3]
+  },
+  {
+    "id": "q05",
+    "question": "What happens to unused Casual Leave at the end of the financial year?",
+    "expected_facts": ["The remaining Casual Leave balance lapses"],
+    "source_pages": [3]
+  },
+  {
+    "id": "q06",
+    "question": "How many leaves can an employee take while on probation?",
+    "expected_facts": ["No leave is entitled during probation; leave taken is treated as LWP"],
+    "source_pages": [3]
+  },
+  {
+    "id": "q07",
+    "question": "How many Privilege Leaves can normally be carried forward at the end of the financial year?",
+    "expected_facts": ["Up to 20 Privilege Leaves"],
+    "source_pages": [3]
+  },
+  {
+    "id": "q08",
+    "question": "What are the minimum working-hour requirements for applying for a half-day leave?",
+    "expected_facts": ["Complete 4 hours of either the first half or second half, excluding break hours"],
+    "source_pages": [4]
+  },
+  {
+    "id": "q09",
+    "question": "What happens if Privilege Leave is combined with a weekend or holiday?",
+    "expected_facts": ["Sandwich leave is applied"],
+    "source_pages": [3]
+  },
+  {
+    "id": "q10",
+    "question": "Does the policy specify the number of paid bereavement leave days currently available?",
+    "expected_facts": ["The current policy does not list bereavement leave in the leave description"],
+    "source_pages": [1, 2]
+  }
+]
